@@ -21,7 +21,7 @@ const ErrorModal = ({ showErrorModal, closeErrorModal, error, error2 }) => {
                 width: 100,
                 height: 100,
               }}
-              source={require("../../components/ui/warning.json")}
+              source={require("../../../assets/lottie/warning.json")}
             />
             <View style={{ alignItems: "center" }}>
               <Text style={styles.modalText}>{error}</Text>
