@@ -1,20 +1,16 @@
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import React from "react";
 
 import { config } from "../../config/Config";
+import Stories from "./stories/Stories";
+import PostList from "./post/PostList";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View
-      style={{
-        position: "relative",
-        width: "100%",
-        height: "100%",
-        //paddingTop: config.hp("2%"),
-      }}
-    >
-      <Text>HomeScreen</Text>
-    </View>
+    <ScrollView style={{}}>
+      <Stories></Stories>
+      <PostList></PostList>
+    </ScrollView>
   );
 };
 
