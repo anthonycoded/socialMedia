@@ -18,6 +18,7 @@ const HomeNavigator = () => {
             animation: "none",
             headerTitle: (props) => <Header {...props} />,
             headerTitleAlign: "center",
+            headerShadowVisible: false,
           }}
         />
 
